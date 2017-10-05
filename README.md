@@ -1,0 +1,34 @@
+---------------------------------------------------------------
+Author: Xinqi ZHU
+Original paper: https://arxiv.org/abs/1709.09890
+---------------------------------------------------------------
+This directory contains sample code of B-CNN paper 
+(https://arxiv.org/abs/1709.09890) written in Python3+.
+
+Please ensure you have installed TensorFlow and Keras.
+
+Please make directories:
+./tb_log_medium/
+./medium_weights/
+./tb_log_medium_dynamic/
+./medium_dynamic_weights/
+before running the program.
+These directories are used to store trained weights and 
+TensorBoard logs.
+---------------------------------------------------------------
+Files:
+
+CIFAR_10_keras_medium.py: model Base B in the paper 
+running on CIFAR-10 dataset
+
+CIFAR_10_keras_medium_dynamic.py: model B-CNN B in 
+the paper running on CIFAR-10 dataset
+---------------------------------------------------------------
+To run:
+
+Just type:
+python CIFAR_10_keras_medium.py
+
+or
+python CIFAR_10_keras_medium_dynamic.py
+---------------------------------------------------------------
