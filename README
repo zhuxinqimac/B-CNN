@@ -7,14 +7,9 @@ This directory contains sample code of B-CNN paper
 
 Please ensure you have installed TensorFlow and Keras.
 
-Please make directories:
-./tb_log_medium/
-./medium_weights/
-./tb_log_medium_dynamic/
-./medium_dynamic_weights/
-before running the program.
-These directories are used to store trained weights and 
-TensorBoard logs.
+Please make directories metioned in each program
+before running them. These directories are used to store 
+trained weights and TensorBoard logs.
 ---------------------------------------------------------------
 Files:
 
@@ -23,12 +18,17 @@ running on CIFAR-10 dataset
 
 CIFAR_10_keras_medium_dynamic.py: model B-CNN B in 
 the paper running on CIFAR-10 dataset
+
+CIFAR_100_keras_vgg16.py: model Base C in 
+the paper running on CIFAR-100 dataset
+
+CIFAR_100_keras_vgg16_hierarchy_dynamic.py: model B-CNN C in 
+the paper running on CIFAR-100 dataset
 ---------------------------------------------------------------
 To run:
 
 Just type:
 python CIFAR_10_keras_medium.py
 
-or
-python CIFAR_10_keras_medium_dynamic.py
+etc.
 ---------------------------------------------------------------
